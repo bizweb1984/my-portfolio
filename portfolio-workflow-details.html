@@ -44,12 +44,12 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <!-- <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
+          <li class="dropdown" style="display: none;"><a href="index.html#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -66,11 +66,11 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
       </nav>
 
-      <div class="social-links text-center">
+      <div class="social-links text-center" style="display: none;">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -126,16 +126,16 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-1.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/AI-Workflow-Processing.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                </div>
+
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/portfolio/AI-Tender-Evaluation-Platform-Multi-Agent-Scoring1.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-10.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
-                </div>
+                  <img src="assets/img/portfolio/AI-Tender-Evaluation-Platform-Multi-Agent-Scoring2.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                </div> -->
 
               </div>
               <div class="swiper-pagination"></div>
@@ -146,10 +146,10 @@
             <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
               <h3>Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Web Development</li>
-                <li><strong>Client</strong>: Victoria Technologies</li>
+                <li><strong>Name</strong>: Automated AI Workflow for Voice Note & Meeting Transcript Processing</li>
+                <!-- <li><strong>Client</strong>: Victoria Technologies</li>
                 <li><strong>Project date</strong>: 01 March, 2024</li>
-                <li><strong>Project URL</strong>: <a href="#" target="_blank">www.example.com</a></li>
+                <li><strong>Project URL</strong>: <a href="#" target="_blank">www.example.com</a></li> -->
               </ul>
             </div>
           </div>
@@ -158,28 +158,46 @@
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Project Overview</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Built an end-to-end automated system to process voice notes and meeting transcripts using n8n and AI models. Implemented custom dictionary correction, metadata extraction, structured summaries, and automated storage into Google Drive and Sheets. Added customer-specific data extraction and prepared the architecture for future RAG chatbot and CRM integration. Improved documentation speed, accuracy, and knowledge management.
               </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-              </p>
-
-              <div class="features mt-4">
+              
+              <div class="features mt-4" style="display: none;">
                 <h3>Key Features</h3>
                 <div class="row gy-3">
                   <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
                       <i class="bi bi-check-circle-fill"></i>
-                      <h4>Responsive Design</h4>
-                      <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                      <!-- <h4>Responsive Design</h4> -->
+                      <p>Built an end-to-end automated system to process voice notes and meeting transcripts using n8n and AI models. Implemented custom dictionary correction, metadata extraction, structured summaries, and automated storage into Google Drive and Sheets. Added customer-specific data extraction and prepared the architecture for future RAG chatbot and CRM integration. Improved documentation speed, accuracy, and knowledge management.</p>
                     </div>
                   </div>
-
                   <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-check-circle-fill"></i>
+                      <!-- <h4>Responsive Design</h4> -->
+                      <p>The system uses multi-agent orchestration to extract structured requirements, validate vendor responses via RAG, and compute weighted evaluation scores based on government scoring standards.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-check-circle-fill"></i>
+                      <!-- <h4>Responsive Design</h4> -->
+                      <p>Includes configurable scoring methods (relative, 0–10 scale, government models), detailed comparison matrix, and AI-assisted requirement drafting.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-check-circle-fill"></i>
+                      <!-- <h4>Responsive Design</h4> -->
+                      <p>Built as scalable SaaS for enterprise and government procurement workflows.</p>
+                    </div>
+                  </div>
+                  
+                  <!-- <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
                       <i class="bi bi-shield-check"></i>
                       <h4>Advanced Security</h4>
-                      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                      <p>Admin panel to test chat and manage data source (protected with user authentication)</p>
                     </div>
                   </div>
 
@@ -187,7 +205,7 @@
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
                       <i class="bi bi-graph-up"></i>
                       <h4>Performance Optimization</h4>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                      <p>Chatbot can be used with any website by including it as an iframe</p>
                     </div>
                   </div>
 
@@ -195,9 +213,9 @@
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
                       <i class="bi bi-gear"></i>
                       <h4>Easy Integration</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                      <p>Uses various files like .csv, .pdf, .txt, .json as data sources</p>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
